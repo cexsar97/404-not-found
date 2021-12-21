@@ -1,0 +1,177 @@
+/*fonts*/ 
+@font-face {
+    font-family: 'SpaceMono';
+    src: url(fonts/SpaceMono-Bold.ttf);
+    src: url(fonts/SpaceMono-BoldItalic.ttf);
+    src: url(fonts/SpaceMono-Italic.ttf);
+    src: url(fonts/SpaceMono-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Generals*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#title h1{
+    font-size: 30px;
+    font-family: "SpaceMono";
+    margin-top: 20px;
+    margin-left: 70px;
+
+}
+
+img{
+    height: 450px;
+    margin-top: 100px;
+    float: left;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#text h1{
+    font-size: 60px;
+    font-family: "SpaceMono";
+    margin-top: 100px;
+    margin-right: 300px;
+}
+
+#text p{
+    font-size: 30px;
+    font-family: "SpaceMono";
+    text-align: none;
+    margin-top: 40px;
+    margin-right: 300px;
+    color: rgb(83, 79, 79);
+}
+
+input[type="button"]{
+    margin-top: 40px;
+    text-align: center;
+    cursor: pointer;
+    height: 60px;
+    width: 200px;
+    font-family: "SpaceMono";
+    background: rgb(39, 39, 39);
+    color: white;
+
+    
+        
+}
+
+@media(max-width: 810px) {
+
+    img{
+        
+        margin-bottom: 50px;
+       
+       }
+
+    #text h1{
+        font-size: 55px;
+        font-family: "SpaceMono";
+        margin-top: 50px;
+        margin-left: 50px;
+        
+    }
+
+    #text p{
+        font-size: 30px;
+        font-family: "SpaceMono";
+        margin: 50px;
+        color: rgb(83, 79, 79);
+    }
+
+    input[type="button"]{
+        margin-top: 10px;
+        margin-left: 50px;
+        text-align: center;
+        cursor: pointer;
+        height: 60px;
+        width: 200px;
+        font-family: "SpaceMono";
+        background: rgb(39, 39, 39);
+        color: white;
+    
+        
+            
+    }
+
+
+}
+ 
+@media(max-width: 428px) {
+
+
+    #title h1{
+        font-size: 15px;
+        font-family: "SpaceMono";
+        margin-top: 20px;
+        margin-left: 30px;
+    
+    }
+
+   img{
+    height: 280px;
+    margin-top: 90px;
+    float: none;
+    margin-left: 35px;
+    margin-right: 35px;
+   }
+
+   #text h1{
+    font-size: 35px;
+    margin: 50px;
+    font-family: "SpaceMono";
+    
+}
+
+#text p{
+    font-size: 20px;
+    font-family: "SpaceMono";
+    margin: 50px;
+    color: rgb(83, 79, 79);
+}
+
+input[type="button"]{
+    margin-top: 10px;
+    margin-left: 50px;
+    text-align: center;
+    cursor: pointer;
+    height: 60px;
+    width: 200px;
+    font-family: "SpaceMono";
+    background: rgb(39, 39, 39);
+    color: white;
+
+    
+        
+}
+
+
+}
+
+@media (max-width: 375px) {
+    img{
+        height: 250px;
+        margin-top: 90px;
+        margin-bottom: 30px;
+        float: none;
+        margin-left: 35px;
+        margin-right: 35px;
+       }
+}
+
+
+@media(max-width: 360px) {
+    img{
+        height: 250px;
+        margin-top: 90px;
+        float: none;
+        margin-left: 35px;
+        margin-right: 35px;
+       }
+}
